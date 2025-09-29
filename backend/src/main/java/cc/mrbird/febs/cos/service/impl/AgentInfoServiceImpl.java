@@ -21,7 +21,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 
 /**
- * 研究任务 实现层
+ * 健身训练 实现层
  *
  * @author FanK fan1ke2ke@gmail.com
  */
@@ -38,10 +38,10 @@ public class AgentInfoServiceImpl extends ServiceImpl<AgentInfoMapper, AgentInfo
     private final IBulletinInfoService bulletinInfoService;
 
     /**
-     * 分页获取研究任务
+     * 分页获取健身训练
      *
      * @param page      分页对象
-     * @param agentInfo 研究任务
+     * @param agentInfo 健身训练
      * @return 结果
      */
     @Override

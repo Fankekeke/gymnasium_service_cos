@@ -9,7 +9,7 @@ import lombok.experimental.Accessors;
 import java.io.Serializable;
 
 /**
- * 美食百科
+ * 健身
  *
  * @author FanK
  */

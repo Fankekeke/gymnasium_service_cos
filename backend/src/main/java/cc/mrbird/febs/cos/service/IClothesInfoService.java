@@ -13,7 +13,7 @@ import java.util.LinkedHashMap;
 public interface IClothesInfoService extends IService<ClothesInfo> {
 
     /**
-     * 分页查询美食百科信息
+     * 分页查询健身信息
      *
      * @param page
      * @param clothesInfo

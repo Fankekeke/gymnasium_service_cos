@@ -10,17 +10,17 @@ import java.util.LinkedHashMap;
 import java.util.List;
 
 /**
- * 研究任务 mapper层
+ * 健身训练 mapper层
  *
  * @author FanK fan1ke2ke@gmail.com
  */
 public interface AgentInfoMapper extends BaseMapper<AgentInfo> {
 
     /**
-     * 分页获取研究任务
+     * 分页获取健身训练
      *
      * @param page      分页对象
-     * @param agentInfo 研究任务
+     * @param agentInfo 健身训练
      * @return 结果
      */
     IPage<LinkedHashMap<String, Object>> queryAgentPage(Page<AgentInfo> page, @Param("agentInfo") AgentInfo agentInfo);

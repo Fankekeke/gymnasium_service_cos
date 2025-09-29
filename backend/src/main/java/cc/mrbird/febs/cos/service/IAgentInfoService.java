@@ -8,17 +8,17 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import java.util.LinkedHashMap;
 
 /**
- * 研究任务 service层
+ * 健身训练 service层
  *
  * @author FanK fan1ke2ke@gmail.com
  */
 public interface IAgentInfoService extends IService<AgentInfo> {
 
     /**
-     * 分页获取研究任务
+     * 分页获取健身训练
      *
      * @param page      分页对象
-     * @param agentInfo 研究任务
+     * @param agentInfo 健身训练
      * @return 结果
      */
     IPage<LinkedHashMap<String, Object>> queryAgentPage(Page<AgentInfo> page, AgentInfo agentInfo);
