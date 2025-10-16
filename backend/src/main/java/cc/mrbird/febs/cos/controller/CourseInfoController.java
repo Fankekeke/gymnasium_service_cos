@@ -27,7 +27,7 @@ public class CourseInfoController {
     private final ICourseInfoService courseInfoService;
 
     /**
-     * 获取所有物品类别
+     * 获取所有课程信息
      *
      * @return
      */

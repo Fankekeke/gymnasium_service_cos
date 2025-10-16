@@ -27,6 +27,7 @@ public class TagInfoController {
 
     /**
      * 获取tag数据
+     *
      * @return
      */
     @GetMapping("/list")
@@ -36,6 +37,7 @@ public class TagInfoController {
 
     /**
      * 分页获取tag数据
+     *
      * @param page
      * @param tagInfo
      * @return
@@ -47,6 +49,7 @@ public class TagInfoController {
 
     /**
      * 添加tag数据
+     *
      * @return
      */
     @PostMapping
@@ -57,6 +60,7 @@ public class TagInfoController {
 
     /**
      * 修改tag数据
+     *
      * @param tagInfo
      * @return
      */
@@ -67,6 +71,7 @@ public class TagInfoController {
 
     /**
      * 删除tag数据
+     *
      * @param ids
      * @return
      */
